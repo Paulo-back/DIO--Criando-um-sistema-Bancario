@@ -128,7 +128,7 @@ class PessoaFisica(Cliente):
     def cpf(self):
         return self._cpf
 
-# Menu
+
 def menu():
     menu = """
 =========== MENU ===========
@@ -149,7 +149,7 @@ def filtrar_cliente(cpf, usuarios):
             return cliente
     return None
 
-# Main
+
 def main():
     usuarios = []
     contas = []
@@ -253,6 +253,6 @@ def main():
         else:
             print("Opção inválida, tente novamente.")
 
-# Chamada do main
+
 if __name__ == "__main__":
     main()
